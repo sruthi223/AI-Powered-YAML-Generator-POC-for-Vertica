@@ -104,8 +104,7 @@ Once integrated with an MCP client like Claude Desktop:
 
 - "Generate a VerticaDB configuration for a 3-node cluster with 2TB storage"
 - "Update the YAML to use communal storage on S3"
-- "Validate this VerticaDB YAML configuration"
-- "Show me the current database configuration"
+- "Given the database connection information, connect to it and generate a YAML"
 
 ## 🔒 Security
 
