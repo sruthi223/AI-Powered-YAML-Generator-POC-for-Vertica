@@ -9,7 +9,7 @@ A Model Context Protocol (MCP) server that enables AI assistants to manage Verti
 - **AI-Powered YAML Generation**: Generate complete VerticaDB Custom Resource definitions using natural language
 - **Intelligent Configuration Updates**: Modify existing configurations with context-aware changes
 - **Schema Validation**: Validate YAML against official Vertica CRD schemas (v25.1-v25.4)
-- **Database Inspection**: Query and analyze live Vertica database state
+- **Database Inspection**: Query and analyze live Vertica database state and share YAML
 - **LLM Integration**: Supports both Ollama (local) and Google Gemini AI models
 
 ## 📋 Requirements
