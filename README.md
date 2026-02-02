@@ -88,10 +88,14 @@ Add to your Claude Desktop MCP configuration:
 {
   "mcpServers": {
     "vertica": {
-      "command": "/path/to/vertica-mcp-server",
-      "args": [],
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "http://localhost:9090/mcp",
+        "--allow-http"
+      ],
       "env": {
-        "OLLAMA_HOST": "http://localhost:11434"
+        "MCP_ALLOW_HTTP": "true"
       }
     }
   }
